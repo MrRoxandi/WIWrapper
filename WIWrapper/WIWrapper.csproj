@@ -11,6 +11,17 @@
     <Title>Windows Input Wrapper</Title>
     <Authors>Roxandi</Authors>
     <Description>Library to simulate Keyaboard and Mouse inputs with C# code.</Description>
+    <RepositoryUrl>https://github.com/MrRoxandi/WIWrapper</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
