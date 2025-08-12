@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 ![Platform](https://img.shields.io/badge/platform-windows-blue.svg?style=for-the-badge)
 
-**WIWrapper** (Windows Input Wrapper) is a simple, modern and intuitive.NET is a library for simulating keyboard and mouse input in Windows. It provides a convenient fluent wrapper over the low-level `SendInput` API, turning complex operations into elegant and readable call chains.
+**WIWrapper** (Windows Input Wrapper) is a simple, modern and intuitive .NET library for simulating keyboard and mouse input in Windows. It provides a convenient fluent wrapper over the low-level `SendInput` API, turning complex operations into elegant and readable call chains.
 
 ## ✨ Features
 

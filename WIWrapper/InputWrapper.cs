@@ -8,7 +8,7 @@ namespace WIWrapper;
 
 public class InputWrapper
 {
-    private List<Input> _inputs = [];
+    private readonly List<Input> _inputs = [];
 
     public static bool IsExtendedKey(KeyCodes key) => key switch
     {
