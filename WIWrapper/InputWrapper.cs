@@ -245,6 +245,25 @@ public class InputWrapper
         return this;
     }
 
+    public InputWrapper WheelScroll(uint distance, bool vertical = false)
+    {
+        var input = new Input
+        {
+            Type = (uint)InputType.Mouse,
+            Data =
+            {
+                MouseInput = new()
+                {
+                    dX = 0, dY = 0, time = 0,
+                    mouseData = distance,
+                    dwFlags = (uint) (vertical ? MouseFlag.VerticalWheel  : MouseFlag.HorizontalWheel),
+                    dwExtraInfo = NativeMethods.GetMessageExtraInfo(),
+                }
+            }
+        };
+        _inputs.Add(input);
+        return this;
+    }
     public InputWrapper SendInputs()
     {
         if (_inputs.Count == 0) return this;
